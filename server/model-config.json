@@ -35,5 +35,9 @@
   "CoffeeShop": {
     "dataSource": "mysqlDs",
     "public": true
+  },
+  "self-set-target-config": {
+    "dataSource": "mysqlDs",
+    "public": true
   }
 }

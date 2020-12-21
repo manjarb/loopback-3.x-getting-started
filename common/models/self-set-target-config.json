@@ -1,0 +1,30 @@
+{
+  "name": "self-set-target-config",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "contents": {
+      "type": "object",
+      "required": true
+    },
+    "country": {
+      "type": "string",
+      "required": true
+    },
+    "createdBy": {
+      "type": "object",
+      "required": true
+    },
+    "delay": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
